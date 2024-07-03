@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.week8lab3.HelloController"
+      alignment="CENTER"
+      spacing="10">
+
+  <TextField fx:id="usernameField" promptText="Enter username"/>
+  <TextField fx:id="contactNumberField" promptText="Enter contact number"/>
+  <TextField fx:id="postalCodeField" promptText="Enter postal code"/>
+  <Button text="Validate" onAction="#handleValidation"/>
+
+</VBox>
+
+
